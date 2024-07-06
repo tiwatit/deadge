@@ -40,3 +40,33 @@
 .read-the-docs {
   color: #888;
 }
+
+tr:nth-child(even){
+  background: #CCD7CF;
+}
+.arrow-right,
+.long-arrow-right{
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+}
+.arrow-right,
+.long-arrow-right{
+ transform: rotate(135deg);
+}
+
+ul {
+  margin: 0;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
