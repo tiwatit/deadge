@@ -17,11 +17,11 @@ function Menu({show, setShow}) {
     <img className='w-[200px] h-[150px] mb-[20px]' src={logo} /> 
       <ul className='w-full h-auto list-none z-10 font-light'> 
         <li className='text-[40px]' onClick={()=>navigate('/deadge')}>Головна</li>
-        <li className='text-[40px]' onClick={()=>navigate('/deadge/services')}>Послуги</li>
-        <li className='text-[40px]' onClick={()=>navigate('/deadge/prices')}>Ціни</li>
-        <li className='text-[40px]' onClick={()=>navigate('/deadge/portfolio')}>Портфоліо</li>
-        <li className='text-[40px]' onClick={()=>navigate('/deadge/about')}>Про нас</li>
-        <li className='text-[40px]' onClick={()=>navigate('/deadge/contacts')}>Контакти</li>
+        <li className='text-[40px]' onClick={()=>navigate('/services')}>Послуги</li>
+        <li className='text-[40px]' onClick={()=>navigate('/prices')}>Ціни</li>
+        <li className='text-[40px]' onClick={()=>navigate('/portfolio')}>Портфоліо</li>
+        <li className='text-[40px]' onClick={()=>navigate('/about')}>Про нас</li>
+        <li className='text-[40px]' onClick={()=>navigate('/contacts')}>Контакти</li>
       </ul> 
       <div className='flex w-[70%] justify-evenly mt-[25px]'>
             <div>

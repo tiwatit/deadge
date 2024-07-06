@@ -7,7 +7,7 @@ function Header({offset,setShow, show}) {
   return (
     <div className='px-4 z-5 fixed top-0 left-0 w-screen lg:h-[8vh] h-[6vh] flex justify-between items-center text-white z-30' style={show?{background:'none'}:offset>=200?{background:'#86a695'}:null}>
         <div className='w-[30vw] z-30'>
-          <img className='lg:h-[50px] z-30 h-[25px] cursor-pointer' src={HeaderLogo} onClick={()=>{navigate('/deadge/')}} />
+          <img className='lg:h-[50px] z-30 h-[25px] cursor-pointer' src={HeaderLogo} onClick={()=>{navigate('/')}} />
         </div>
         <div className='flex flex-col text-3xl lg:text-4xl w-[70vw] items-end' >
           {/* <div className='text-3xl'>Меню</div> */}
@@ -18,11 +18,11 @@ function Header({offset,setShow, show}) {
           </div> 
           <div className=' w-[100vw] sm:max-md:h-7vh px-4 z-20 flex justify-end items-center lg:h-[100px]'>
             <div className='lg:flex lg:justify-between lg:text-xl sm:max-md:text-xl sm:hidden text-white font-light'>
-              <p className='cursor-pointer mr-[20px] hover:underline' onClick={()=>navigate('/deadge/about')}>Про нас</p>
-              <p className='cursor-pointer mr-[20px] hover:underline' onClick={()=>navigate('/deadge/contacts')}>Контакти</p>
-              <p className='cursor-pointer mr-[20px] hover:underline' onClick={()=>navigate('/deadge/services')}>Послуги</p>
-              <p className='cursor-pointer mr-[20px] hover:underline' onClick={()=>navigate('/deadge/prices')}>Ціни</p>
-              <p className='cursor-pointer mr-[20px] hover:underline' onClick={()=>navigate('/deadge/portfolio')}>Портфоліо</p>
+              <p className='cursor-pointer mr-[20px] hover:underline' onClick={()=>navigate('/about')}>Про нас</p>
+              <p className='cursor-pointer mr-[20px] hover:underline' onClick={()=>navigate('/contacts')}>Контакти</p>
+              <p className='cursor-pointer mr-[20px] hover:underline' onClick={()=>navigate('/services')}>Послуги</p>
+              <p className='cursor-pointer mr-[20px] hover:underline' onClick={()=>navigate('/prices')}>Ціни</p>
+              <p className='cursor-pointer mr-[20px] hover:underline' onClick={()=>navigate('/portfolio')}>Портфоліо</p>
               <p className='mr-[20px]'>+38 098 227 72 99</p>
               <p>+38 050 227 72 99</p>
             </div>
