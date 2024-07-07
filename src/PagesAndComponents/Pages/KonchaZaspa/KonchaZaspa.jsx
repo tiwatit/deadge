@@ -42,8 +42,7 @@ function KonchaZaspa({}) {
 
     const test = async()=>{
       setOffset(0+window.scrollY)
-      console.log(offset)
-      console.log(window.scrollY)
+
   }
 
   useEffect(() => {

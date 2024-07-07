@@ -51,7 +51,6 @@ function App() {
   const handleScroll = () => {
       const position = window.pageYOffset;
       setScrollPosition(position);
-      console.log(position)
       if(position>300&&position<955||position>1281&&position<1870)
       {
         setColorPhone(true)}
@@ -96,8 +95,6 @@ function App() {
 
 
     window.addEventListener('resize', handleResize);
-    console.log(screenHeight)
-    console.log(screenWidth)
 
 
 

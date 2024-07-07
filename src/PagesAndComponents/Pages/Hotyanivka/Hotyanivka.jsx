@@ -44,8 +44,6 @@ function Hotyanivka({}) {
 
     const test = async()=>{
       setOffset(0+window.scrollY)
-      console.log(offset)
-      console.log(window.scrollY)
   }
   useEffect(() => {
     window.scrollTo({top: 0, left: 0});
