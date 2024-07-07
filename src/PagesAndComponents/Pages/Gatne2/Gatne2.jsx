@@ -57,9 +57,9 @@ function Gatne2({}) {
   return (
     <div className='w-screen font-light' onWheel={()=>test()}>
       <div className="relative flex flex-col justify-center items-center md:h-screen w-screen h-[36vh] bg-topImage4 bg-cover">
-        <p className='left-[0px] text-white text-4xl  p-[15px] sm:max-md:text-sm'>Гатне 2</p>
-        <p className='text-white text-4xl  p-[15px]  sm:max-md:text-sm'>Дизайнер Анастасія Балаєва</p>
-        <p className='text-white text-4xl  p-[15px] sm:max-md:text-sm'>2021 рік</p>
+        <p className='left-[0px] text-white text-4xl  p-[15px] sm:max-md:text-xl'>Гатне 2</p>
+        <p className='text-white text-4xl  p-[15px]  sm:max-md:text-xl'>Дизайнер Анастасія Балаєва</p>
+        <p className='text-white text-4xl  p-[15px] sm:max-md:text-xl'>2021 рік</p>
       </div>
       <Header offset={offset} setShow={setShow} show={show}/>
 

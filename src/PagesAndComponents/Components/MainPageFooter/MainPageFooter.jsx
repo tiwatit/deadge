@@ -20,10 +20,11 @@ function MainPageFooter({}) {
     <div className='flex flex-col items-center justify-center relative min-h-[15vh] h-auto w-screen sm:max-md:pt-[30px] lg:text-xl font-light lg:pl-[83px]' style={{backgroundColor:'#86a695'}}>
         <div className='flex w-[90%]'>
             <div className='h-[200px] w-[10%] left-5 top-[0px] flex flex-col justify-evenly lg:hidden'>
-                <ResourcesItem src={telegram} />
-                <ResourcesItem src={instagram}   />
-                <ResourcesItem src={tiktok}  />
-                <ResourcesItem src={facebook}  />
+            <a href='/contacts'><ResourcesItem src={phone}/></a>
+            <a href='https://t.me/Ginkgo_ua' target="_blank"><ResourcesItem src={telegram} href/></a>
+            <a href='https://www.instagram.com/ginkgo_landscape_design?igsh=MXM4N2xlbGk4YXltZQ%3D%3D&utm_source=qr' target="_blank"><ResourcesItem src={instagram}/></a>
+            <a href='https://www.tiktok.com/@_ginkgo_?_t=8ltkmxNYShh&_r=1' target="_blank"><ResourcesItem src={tiktok}/></a>
+            <a href='https://www.facebook.com/share/3L8uzffv5PTZEtw3/?mibextid=LQQJ4d' target="_blank"><ResourcesItem src={facebook}/></a>
             </div>
             <div className='w-[100%] sm:max-md:w-[75%] flex sm:max-md:flex-col items-center justify-evenly'>
                 <div className='flex flex-col items-center text-white whitespace-nowrap lg:mr-[15px]'>

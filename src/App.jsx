@@ -298,7 +298,7 @@ function App() {
               <p className='absolute bottom-[10px] left-[5px] lg:text-xl text-white font-light '>Проєктування</p>
           </div>
           <div className='cursor-pointer relative bg-black h-[250px] w-[30%] overflow-hidden' onClick={()=>navigate('/services')}>
-            <img className='h-[100%] w-[100%] opacity-60 hover:opacity-100 hover:scale-125 transition delay-150' src={realOzelenennya} />
+            <img className='h-[100%] w-[100%] opacity-60 hover:opacity-100 hover:scale-125 transition delay-150' src={ozelenennya} />
             <p className='absolute bottom-[10px] left-[5px] lg:text-xl text-white font-light'>Озеленення і благоустрій</p>
           </div>
           <div className='cursor-pointer relative bg-black h-[250px] w-[30%] overflow-hidden' onClick={()=>navigate('/services')}>

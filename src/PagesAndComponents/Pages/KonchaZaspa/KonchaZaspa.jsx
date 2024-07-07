@@ -53,9 +53,9 @@ function KonchaZaspa({}) {
   return (
     <div className='w-screen font-light' onWheel={()=>test()}>
       <div className="relative flex flex-col justify-center items-center md:h-screen w-screen h-[36vh] bg-topImage1 bg-cover">
-        <p className='left-[0px] text-white text-4xl  p-[15px] sm:max-md:text-sm'>Козин</p>
-        <p className='text-white text-4xl  p-[15px]  sm:max-md:text-sm'>Дизайнер Анатолій Широконіс</p>
-        <p className='text-white text-4xl  p-[15px] sm:max-md:text-sm'>2017 рік</p>
+        <p className='left-[0px] text-white text-4xl  p-[15px] sm:max-md:text-xl'>Козин</p>
+        <p className='text-white text-4xl  p-[15px]  sm:max-md:text-xl'>Дизайнер Анатолій Широконіс</p>
+        <p className='text-white text-4xl  p-[15px] sm:max-md:text-xl'>2017 рік</p>
       </div>
 
       {/* Menu */}
